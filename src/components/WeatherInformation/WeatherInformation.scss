@@ -1,0 +1,10 @@
+.weather-information-wrapper {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #f0f4f8; /* Легкий фон для стиля */
+    // justify-content: center;
+    align-items: center;
+    // padding: 2rem;
+  }

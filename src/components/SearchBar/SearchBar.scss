@@ -1,0 +1,25 @@
+.search-bar-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2673b0;
+    position: relative;
+}
+
+.search-bar{
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metric-select-wrapper{
+    position: absolute;
+    right: 5%;
+    padding: 1rem;
+    // border: 2px solid #ffffff;
+border-radius: 1rem;
+    background-color: #ffffff;;
+}
+

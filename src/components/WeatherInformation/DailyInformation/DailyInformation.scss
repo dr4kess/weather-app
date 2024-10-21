@@ -1,0 +1,31 @@
+
+  
+  .daily-information-wrapper {
+    width: 90%;
+    height: 90%;
+    display: flex; /* Включаем flexbox */
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    flex-direction: column; /* Содержимое располагается вертикально */
+    gap: 1.5rem; /* Расстояние между элементами */
+    background-color: #ffffff;
+    border-radius: 1rem; /* Закругленные углы */
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для стиля */
+    margin-left: 3rem;
+  }
+  
+  .main-weather-icon-wrapper {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .daily-information-wrapper h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .daily-information-wrapper p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
