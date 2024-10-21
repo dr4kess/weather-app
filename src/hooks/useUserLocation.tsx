@@ -2,17 +2,16 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const useUserLocation = () => {
-  const [city, setCity] = useState<string>(''); // Название города
+  const [city, setCity] = useState<string>(''); 
 
-  // Асинхронная функция для получения геоинформации
   const getGeoInfo = async () => {
     try {
       const response = await axios.get('https://ipapi.co/json/');
       const data = response.data;
-      setCity(data.city); // Сохраняем название города
+      setCity(data.city); 
     } catch (error) {
       console.error('Ошибка при получении местоположения:', error);
-      setCity('Yerevan'); // Обработка ошибки
+      setCity('Yerevan'); 
     }
   };
 

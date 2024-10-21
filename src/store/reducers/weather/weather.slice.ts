@@ -1,4 +1,3 @@
-// src/store/reducers/weather/weather.slice.ts
 import { createSlice } from '@reduxjs/toolkit';
 import { fetchCurrentWeather, fetchDailyWeather } from './weather.thunk';
 import { RootState } from '../../store.types';

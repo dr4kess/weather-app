@@ -17,7 +17,6 @@ export const fetchCurrentWeather = createAsyncThunk(
     }
   );
   
-  // Получение прогноза на несколько дней
   export const fetchDailyWeather = createAsyncThunk(
     'weather/fetchDailyWeather',
     async (city: string, { rejectWithValue }) => {
@@ -27,7 +26,7 @@ export const fetchCurrentWeather = createAsyncThunk(
         });
         return response.data;
       } catch (error) {
-        return rejectWithValue(error.message);
+        return rejectWithValue(error?.message);
       }
     }
   );
